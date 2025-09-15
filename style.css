@@ -23,7 +23,7 @@ font-family: "Bebas Neue", sans-serif;
 }
 
 body{
-  background-color: #F0F0F0;
+  background-color: #F1F2F0;
   width: 80ch;
   margin-left: auto;
   margin-right: auto;
@@ -47,13 +47,13 @@ p{
 }
 
 a{
-  color: #EE7036;
+  color: #731D09;
 }
 a:hover{
-  color: #B6C796;
+  color: #9FA66F;
 }
 a:visited{
-  color:darkolivegreen
+  color:#F2B138
 }
 /* -------------  Header styles ------------------------- */
 header {
@@ -86,7 +86,7 @@ nav a {
 
 nav a:hover {
   color: 
-#0066cc; /* hover color */
+#F27244; /* hover color */
 }
 
 /* ------------- END Header styles  */
