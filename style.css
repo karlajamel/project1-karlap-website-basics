@@ -7,24 +7,87 @@ html{
   color- primary text color for the site
   background-color - primary background color for the site */
 
-  
+  /* FONT FAMILY /*
+  font-family: "Bebas Neue", "Karla";
 }
 
+
 /* General heading styles */
+
+
 h1, h2, h3, h4, h5, h6{
-  set font styles for all of your headings, for example font-weight, line-height, font-family
+/*  set font styles for all of your headings, for example font-weight, line-height, font-family */
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+body{
+  background-color: #F0F0F0;
+  width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Specific element text styles */
 h1{
   /*   this is the page title */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
 }
 
 h2{
-  
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
 }
 
 p{
-
+  font-family: "Karla";
   margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
+}
+
+a{
+  color: #EE7036;
+}
+a:hover{
+  color: #B6C796;
+}
+a:visited{
+  color:darkolivegreen
+}
+/* -------------  Header styles ------------------------- */
+header {
+  display: flex;
+  justify-content: space-between; /* site title left, nav right */
+  align-items: center;           /* vertical centering */
+  padding: 1rem;
+}
+
+/* Styles the site title at the top of the header */
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;   /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* horizontal layout for links */
+  gap: 1rem;          /* space between items */
+}
+
+nav a {
+  text-decoration: none;
+  color: 
+#333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: 
+#0066cc; /* hover color */
+}
+
+/* ------------- END Header styles  */
 }
